@@ -1438,7 +1438,7 @@ async function __wbg_init(module_or_path) {
     console.warn('using deprecated parameters for the initialization function; pass a single object instead')
 
     if (typeof module_or_path === 'undefined') {
-        module_or_path = new URL('finhouse-a084dcd1a73aba83_bg.wasm', import.meta.url);
+        module_or_path = new URL('finhouse-b97e263fe735f23a_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
